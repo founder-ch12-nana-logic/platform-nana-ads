@@ -1,0 +1,14 @@
+{
+  "name": "platform-nana-ads",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CH12 Nana Ads Tracking Platform",
+  "scripts": {
+    "worker:dev": "wrangler dev --config worker/wrangler.toml",
+    "worker:deploy": "wrangler deploy --config worker/wrangler.toml",
+    "security:check": "node scripts/security-check.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.22.0"
+  }
+}

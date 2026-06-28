@@ -1,0 +1,13 @@
+name = "ch12-nana-ads-tracking"
+main = "src/index.js"
+compatibility_date = "2026-06-28"
+workers_dev = true
+
+[vars]
+CORS_ALLOW_ORIGIN = "*"
+
+# Configure these as Wrangler secrets, never in this file:
+# CH12_INTERNAL_WEBHOOK_BEARER
+# META_ACCESS_TOKEN
+# TIKTOK_ACCESS_TOKEN
+# GA4_API_SECRET

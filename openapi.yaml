@@ -1,0 +1,104 @@
+openapi: 3.1.0
+info:
+  title: CH12 Nana Ads Tracking Event API
+  version: 0.1.0
+  description: Event ingestion API for CH12 Nana Ads tracking.
+servers:
+  - url: https://ch12-nana-ads.example.workers.dev
+paths:
+  /health:
+    get:
+      summary: Health check
+      operationId: getHealth
+      responses:
+        "200":
+          description: Worker is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok:
+                    type: boolean
+                  service:
+                    type: string
+                required: [ok, service]
+  /v1/events:
+    post:
+      summary: Ingest tracking event
+      operationId: postEvent
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/EventRequest"
+      responses:
+        "202":
+          description: Event accepted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok:
+                    type: boolean
+                  accepted:
+                    type: boolean
+                  event_id:
+                    type: string
+                required: [ok, accepted, event_id]
+        "400":
+          description: Bad request
+components:
+  schemas:
+    EventRequest:
+      type: object
+      properties:
+        event_id:
+          type: string
+        event_name:
+          type: string
+          enum:
+            - page_view
+            - view_bos_world
+            - view_lab_world
+            - view_nana_world
+            - view_forge_world
+            - open_chatbot
+            - start_chat
+            - submit_lead
+            - request_app_blueprint
+            - request_app_export
+            - select_plan
+            - start_checkout
+            - purchase
+            - subscription_start
+        event_time_iso:
+          type: string
+          format: date-time
+        page_url:
+          type: string
+        page_path:
+          type: string
+        page_title:
+          type: string
+        referrer:
+          type: string
+        site:
+          type: string
+        session_id:
+          type: string
+        anonymous_id:
+          type: string
+        user_id:
+          type: string
+        properties:
+          type: object
+          additionalProperties: true
+        utm:
+          type: object
+          additionalProperties:
+            type: [string, "null"]
+      required:
+        - event_name
