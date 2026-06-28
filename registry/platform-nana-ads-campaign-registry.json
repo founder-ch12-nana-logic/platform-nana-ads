@@ -1,0 +1,12 @@
+{
+  "workspace": "platform-nana-ads",
+  "status": "planned_not_enabled",
+  "allowed_states": [
+    "backlog",
+    "draft",
+    "approved",
+    "paused",
+    "archive"
+  ],
+  "campaigns": []
+}

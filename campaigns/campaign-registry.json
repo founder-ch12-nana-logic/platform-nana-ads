@@ -1,0 +1,74 @@
+{
+  "workspace": "platform-nana-ads",
+  "mode": "planning_only",
+  "tracking_enabled": false,
+  "pixel_enabled": false,
+  "zaraz_enabled": false,
+  "conversion_api_enabled": false,
+  "campaigns": [
+    {
+      "id": "launch-campaign-v0.1",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    },
+    {
+      "id": "ai-saas-builder-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    },
+    {
+      "id": "no-code-factory-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    },
+    {
+      "id": "security-first-platform-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    },
+    {
+      "id": "provider-ecosystem-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    },
+    {
+      "id": "ui-template-gallery-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    },
+    {
+      "id": "founder-build-in-public-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    },
+    {
+      "id": "internal-tools-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    },
+    {
+      "id": "agency-offer-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    }
+  ],
+  "safe_disclaimer": "\"Technology names are referenced as tools, platforms, providers, or channels used or evaluated by the project. Unless explicitly stated, references do not imply sponsorship, endorsement, certification, or official partnership.\""
+}

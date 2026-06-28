@@ -1,0 +1,8 @@
+{
+  "workspace": "platform-nana-ads",
+  "budget_status": "zero_spend_until_approved",
+  "monthly_budget_limit": 0,
+  "currency": "USD",
+  "spend_enabled": false,
+  "approvals": []
+}

@@ -1,0 +1,42 @@
+{
+  "wave": "wave-01",
+  "status": "planned_not_enabled",
+  "tracking_enabled": false,
+  "campaigns": [
+    {
+      "id": "wave-01-google-search",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false
+    },
+    {
+      "id": "wave-01-meta-prospecting",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false
+    },
+    {
+      "id": "wave-01-tiktok-story",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false
+    },
+    {
+      "id": "wave-01-linkedin-b2b",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false
+    },
+    {
+      "id": "wave-01-reddit-community",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false
+    },
+    {
+      "id": "wave-01-pinterest-visual",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false
+    },
+    {
+      "id": "wave-01-organic-social",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false
+    }
+  ]
+}

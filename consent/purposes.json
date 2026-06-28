@@ -1,0 +1,21 @@
+{
+  "workspace": "platform-nana-ads",
+  "tracking_status": "disabled",
+  "purposes": [
+    {
+      "purpose_id": "measurement",
+      "description": "Planned measurement events after consent approval.",
+      "requires_consent": true
+    },
+    {
+      "purpose_id": "attribution",
+      "description": "Planned attribution events after consent approval.",
+      "requires_consent": true
+    },
+    {
+      "purpose_id": "optimization",
+      "description": "Planned campaign optimization after consent approval.",
+      "requires_consent": true
+    }
+  ]
+}

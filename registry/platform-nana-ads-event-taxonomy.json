@@ -1,0 +1,124 @@
+{
+  "workspace": "platform-nana-ads",
+  "status": "planned_not_enabled",
+  "events": [
+    {
+      "event_id": "evt_page_view",
+      "event_name": "page_view",
+      "description": "Planned page-level view event.",
+      "public_allowed": true,
+      "contains_pii": false,
+      "requires_consent": true,
+      "provider_destinations": [],
+      "status": "planned_not_enabled"
+    },
+    {
+      "event_id": "evt_template_view",
+      "event_name": "template_view",
+      "description": "Planned template detail view event.",
+      "public_allowed": true,
+      "contains_pii": false,
+      "requires_consent": true,
+      "provider_destinations": [],
+      "status": "planned_not_enabled"
+    },
+    {
+      "event_id": "evt_ui_template_selected",
+      "event_name": "ui_template_selected",
+      "description": "Planned UI template selection event.",
+      "public_allowed": true,
+      "contains_pii": false,
+      "requires_consent": true,
+      "provider_destinations": [],
+      "status": "planned_not_enabled"
+    },
+    {
+      "event_id": "evt_lead_started",
+      "event_name": "lead_started",
+      "description": "Planned lead flow start event.",
+      "public_allowed": false,
+      "contains_pii": true,
+      "requires_consent": true,
+      "provider_destinations": [],
+      "status": "planned_not_enabled"
+    },
+    {
+      "event_id": "evt_lead_submitted",
+      "event_name": "lead_submitted",
+      "description": "Planned lead submission event.",
+      "public_allowed": false,
+      "contains_pii": true,
+      "requires_consent": true,
+      "provider_destinations": [],
+      "status": "planned_not_enabled"
+    },
+    {
+      "event_id": "evt_signup_started",
+      "event_name": "signup_started",
+      "description": "Planned signup start event.",
+      "public_allowed": false,
+      "contains_pii": true,
+      "requires_consent": true,
+      "provider_destinations": [],
+      "status": "planned_not_enabled"
+    },
+    {
+      "event_id": "evt_signup_completed",
+      "event_name": "signup_completed",
+      "description": "Planned signup completion event.",
+      "public_allowed": false,
+      "contains_pii": true,
+      "requires_consent": true,
+      "provider_destinations": [],
+      "status": "planned_not_enabled"
+    },
+    {
+      "event_id": "evt_checkout_started",
+      "event_name": "checkout_started",
+      "description": "Planned checkout start event.",
+      "public_allowed": false,
+      "contains_pii": true,
+      "requires_consent": true,
+      "provider_destinations": [],
+      "status": "planned_not_enabled"
+    },
+    {
+      "event_id": "evt_purchase_completed",
+      "event_name": "purchase_completed",
+      "description": "Planned purchase completion event.",
+      "public_allowed": false,
+      "contains_pii": true,
+      "requires_consent": true,
+      "provider_destinations": [],
+      "status": "planned_not_enabled"
+    },
+    {
+      "event_id": "evt_contact_clicked",
+      "event_name": "contact_clicked",
+      "description": "Planned contact CTA click event.",
+      "public_allowed": true,
+      "contains_pii": false,
+      "requires_consent": true,
+      "provider_destinations": [],
+      "status": "planned_not_enabled"
+    },
+    {
+      "event_id": "evt_demo_requested",
+      "event_name": "demo_requested",
+      "description": "Planned demo request intent event.",
+      "public_allowed": false,
+      "contains_pii": true,
+      "requires_consent": true,
+      "provider_destinations": [],
+      "status": "planned_not_enabled"
+    }
+  ],
+  "rules": [
+    "No event payload may contain raw email, phone, password, token, api key, private key, customer secret, or customer data.",
+    "PII events are blocked until consent and privacy review are complete.",
+    "No production tracking without approved consent policy.",
+    "No ads spend without budget approval.",
+    "No Cloudflare Zaraz mutation in this repository.",
+    "This repository stores policy and registry only."
+  ]
+}

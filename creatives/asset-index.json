@@ -1,0 +1,15 @@
+{
+  "tracking_enabled": false,
+  "storage_policy": {
+    "github": "planning, registry, copy, policy, and non-secret metadata only",
+    "proton_drive": "raw creative assets to be stored later",
+    "proton_pass": "ad account tokens and secrets to be stored later"
+  },
+  "asset_groups": [
+    "copy_bank",
+    "creative_brief",
+    "landing_copy",
+    "channel_plan"
+  ],
+  "safe_disclaimer": "\"Technology names are referenced as tools, platforms, providers, or channels used or evaluated by the project. Unless explicitly stated, references do not imply sponsorship, endorsement, certification, or official partnership.\""
+}

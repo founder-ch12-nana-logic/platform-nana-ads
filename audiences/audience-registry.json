@@ -1,0 +1,35 @@
+{
+  "tracking_enabled": false,
+  "segments": [
+    {
+      "id": "founder-operator",
+      "status": "planned_not_enabled",
+      "core_need": "control + speed"
+    },
+    {
+      "id": "agency-builder",
+      "status": "planned_not_enabled",
+      "core_need": "repeatable delivery system"
+    },
+    {
+      "id": "internal-tools-team",
+      "status": "planned_not_enabled",
+      "core_need": "governed internal app shipping"
+    },
+    {
+      "id": "no-code-maker",
+      "status": "planned_not_enabled",
+      "core_need": "visual velocity with structure"
+    },
+    {
+      "id": "technical-founder",
+      "status": "planned_not_enabled",
+      "core_need": "screened build pipeline"
+    },
+    {
+      "id": "security-conscious-operator",
+      "status": "planned_not_enabled",
+      "core_need": "trust-first workflows"
+    }
+  ]
+}

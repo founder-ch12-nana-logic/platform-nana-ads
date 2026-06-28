@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "platform-nana-ads-event-contract",
+  "type": "object",
+  "required": [
+    "event_id",
+    "event_name",
+    "description",
+    "public_allowed",
+    "contains_pii",
+    "requires_consent",
+    "provider_destinations",
+    "status"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "event_name": {
+      "type": "string",
+      "enum": [
+        "page_view",
+        "template_view",
+        "ui_template_selected",
+        "lead_started",
+        "lead_submitted",
+        "signup_started",
+        "signup_completed",
+        "checkout_started",
+        "purchase_completed",
+        "contact_clicked",
+        "demo_requested"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "public_allowed": {
+      "type": "boolean"
+    },
+    "contains_pii": {
+      "type": "boolean"
+    },
+    "requires_consent": {
+      "type": "boolean",
+      "const": true
+    },
+    "provider_destinations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "const": "planned_not_enabled"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "2.0",
+  "fields": [
+    "provider_id",
+    "display_name",
+    "category",
+    "status",
+    "positioning",
+    "public_description",
+    "internal_use",
+    "logo_usage_approved",
+    "claim_style",
+    "secret_ref_required",
+    "tracking_enabled",
+    "public_visible",
+    "risk_note"
+  ],
+  "constraints": {
+    "allowed_status": [
+      "candidate",
+      "tool_in_use",
+      "integration_planned",
+      "approved_for_public_mention",
+      "official_partner",
+      "retired",
+      "planned_not_enabled"
+    ],
+    "tracking_enabled_must_be_false_for_now": true,
+    "official_partner_requires_evidence_ref": true,
+    "logo_usage_approved_false_requires_text_only_card": true
+  }
+}

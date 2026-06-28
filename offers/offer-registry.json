@@ -1,0 +1,25 @@
+{
+  "tracking_enabled": false,
+  "offers": [
+    {
+      "id": "lead-magnet-blueprint",
+      "status": "planned_not_enabled"
+    },
+    {
+      "id": "ui-template-gallery",
+      "status": "planned_not_enabled"
+    },
+    {
+      "id": "saas-builder-demo",
+      "status": "planned_not_enabled"
+    },
+    {
+      "id": "platform-lab-study",
+      "status": "planned_not_enabled"
+    },
+    {
+      "id": "security-first-build",
+      "status": "planned_not_enabled"
+    }
+  ]
+}

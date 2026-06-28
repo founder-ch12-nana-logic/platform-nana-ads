@@ -1,0 +1,227 @@
+{
+  "ecosystem_positioning": "Premium, provider-diverse, security-first operating ecosystem for AI-native internal SaaS and campaign operations.",
+  "tracking_enabled": false,
+  "logo_policy": "No logo usage unless logo_usage_approved is true.",
+  "legal_claim_policy": "No official partnership, endorsement, sponsorship, or certification claims unless explicitly documented.",
+  "categories": [
+    "ai intelligence layer",
+    "no-code builder layer",
+    "code and repository layer",
+    "secure private storage layer",
+    "edge and domain infrastructure layer",
+    "vps and runtime operations layer",
+    "marketing and growth channels",
+    "experimental research providers"
+  ],
+  "providers": [
+    {
+      "name": "OpenAI",
+      "status": "tool_in_use",
+      "category": "ai intelligence layer",
+      "positioning": "ai reasoning, architecture assistance, remediation planning, product intelligence",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "ChatGPT",
+      "status": "tool_in_use",
+      "category": "ai intelligence layer",
+      "positioning": "founder command center, workflow guidance, product planning, security review assistance",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Gemini",
+      "status": "candidate",
+      "category": "ai intelligence layer",
+      "positioning": "research review, google ecosystem assistance, multimodal validation",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "FlutterFlow",
+      "status": "tool_in_use",
+      "category": "no-code builder layer",
+      "positioning": "visual app builder, ui assembly, flutter export, rapid prototyping",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Dreamflow",
+      "status": "candidate",
+      "category": "no-code builder layer",
+      "positioning": "experimental ai app generation and ui exploration",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "GitHub",
+      "status": "tool_in_use",
+      "category": "code and repository layer",
+      "positioning": "source control, pull requests, copilot agent, security workflow, repository governance",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "GitLab",
+      "status": "integration_planned",
+      "category": "code and repository layer",
+      "positioning": "secondary candidate intake and repository screening",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Proton",
+      "status": "tool_in_use",
+      "category": "secure private storage layer",
+      "positioning": "proton drive, proton pass, private evidence, access keys, contract storage",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Google Drive",
+      "status": "candidate",
+      "category": "secure private storage layer",
+      "positioning": "approved shared material, community/public source collaboration",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Cloudflare",
+      "status": "tool_in_use",
+      "category": "edge and domain infrastructure layer",
+      "positioning": "dns, edge routing, pages/workers candidate, zaraz planned, gateway layer",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Vietnix",
+      "status": "tool_in_use",
+      "category": "vps and runtime operations layer",
+      "positioning": "vps hosting for platform-control and runtime experimentation",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Termius",
+      "status": "tool_in_use",
+      "category": "vps and runtime operations layer",
+      "positioning": "ssh, tunnels, mobile operations, vps access workflow",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Google Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "search acquisition, intent capture, conversion campaigns",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Meta Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "social acquisition, retargeting, creative testing",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "TikTok Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "short-form creative acquisition and founder-led storytelling",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "LinkedIn Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "b2b founder, operator, agency and internal tools audience",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Reddit Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "community product discovery and technical audience testing",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Pinterest Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "visual discovery for ui templates and design inspiration",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Microsoft Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "search and audience acquisition across Microsoft inventory",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "X Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "social reach and performance testing on X platform",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Snap Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "short-form social acquisition and creative experiments",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Taboola Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "native discovery campaigns and content promotion",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Outbrain Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "native distribution and article-led acquisition campaigns",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Klaviyo",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "email and lifecycle automation for retention campaigns",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Mailchimp",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "email marketing and audience communication planning",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Braze",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "cross-channel lifecycle messaging and engagement orchestration",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    }
+  ],
+  "safe_disclaimer": "\"Technology names are referenced as tools, platforms, providers, or channels used or evaluated by the project. Unless explicitly stated, references do not imply sponsorship, endorsement, certification, or official partnership.\""
+}

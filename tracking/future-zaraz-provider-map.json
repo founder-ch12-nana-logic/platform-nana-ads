@@ -1,0 +1,14 @@
+{
+  "tracking_enabled": false,
+  "zaraz_enabled": false,
+  "providers": [
+    "Cloudflare",
+    "Google Ads",
+    "Meta Ads",
+    "TikTok Ads",
+    "LinkedIn Ads",
+    "Reddit Ads",
+    "Pinterest Ads"
+  ],
+  "note": "Planning map only. No implementation in this repository."
+}

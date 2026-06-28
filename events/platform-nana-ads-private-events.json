@@ -1,0 +1,18 @@
+{
+  "workspace": "platform-nana-ads",
+  "status": "planned_not_enabled",
+  "events": [
+    "lead_started",
+    "lead_submitted",
+    "signup_started",
+    "signup_completed",
+    "checkout_started",
+    "purchase_completed",
+    "demo_requested"
+  ],
+  "blocked_until": [
+    "consent_complete",
+    "privacy_review_complete",
+    "founder_approval"
+  ]
+}
