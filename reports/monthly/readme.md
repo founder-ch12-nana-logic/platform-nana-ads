@@ -1,3 +1,4 @@
 # Monthly Reports
 
-Use this folder for monthly performance report templates and summaries.
+Monthly reports summarize strategic direction, provider ecosystem maturity, and conversion asset quality.
+Tracking and activation remain disabled until explicit approval.

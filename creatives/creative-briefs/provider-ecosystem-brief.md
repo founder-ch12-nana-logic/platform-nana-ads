@@ -1,10 +1,15 @@
-# Creative Brief: Provider Ecosystem
+# Provider Ecosystem Brief
 
-## Goal
-Present the ecosystem as premium, trusted, and globally scalable while preserving legal-safe claims.
+## Brief focus
+Premium ecosystem mapping with legal-safe provider framing.
 
-## Tone
-Bold, infrastructure-grade, AI-native, enterprise-ready.
+## Audience intent
+- Reduce chaos
+- Increase shipping confidence
+- Improve governance and trust
 
-## Mandatory disclaimer
-Include the required provider disclaimer in all public-facing variants.
+## Output format
+Static planning copy and concepts only.
+
+## Safe disclaimer
+"Technology names are referenced as tools, platforms, providers, or channels used or evaluated by the project. Unless explicitly stated, references do not imply sponsorship, endorsement, certification, or official partnership."

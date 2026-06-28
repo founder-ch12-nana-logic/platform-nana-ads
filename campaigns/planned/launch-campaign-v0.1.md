@@ -1,15 +1,24 @@
-# Launch Campaign v0.1
+# Launch Campaign V0.1
+
+## Status
+planned_not_enabled
 
 ## Objective
-Introduce the premium provider ecosystem narrative with enterprise-ready and security-first messaging.
+Initial premium launch narrative for the ads and provider ecosystem workspace.
 
-## Core message
-An AI-native builder stack designed for controlled internal SaaS execution.
+## Audience
+- Founder-operators
+- Internal tools leads
+- Security-conscious product teams
+- Agencies and systems builders
 
-## Guardrails
-- No tracking scripts enabled
-- No pixel deployment
-- No official partnership claims without evidence
+## Offer
+Strategy call, pilot engagement, or blueprint download.
 
-## Tracking state
-tracking_enabled: false
+## Risk controls
+- Tracking remains disabled
+- No pixels or conversion API enabled
+- No partnership or endorsement claims
+
+## Safe disclaimer
+"Technology names are referenced as tools, platforms, providers, or channels used or evaluated by the project. Unless explicitly stated, references do not imply sponsorship, endorsement, certification, or official partnership."

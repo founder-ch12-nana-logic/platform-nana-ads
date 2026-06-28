@@ -1,24 +1,11 @@
 {
-  "schema_version": "2.0",
-  "purpose": "High-impact but legally safe provider ecosystem planning for public marketing pages.",
-  "informational_only": true,
-  "partnership_claims_allowed": false,
-  "provider_status_allowed": [
-    "candidate",
-    "tool_in_use",
-    "integration_planned",
-    "approved_for_public_mention",
-    "official_partner",
-    "retired",
-    "planned_not_enabled"
-  ],
-  "default_provider_status_allowed": [
-    "candidate",
-    "tool_in_use"
-  ],
-  "premium_categories": [
+  "ecosystem_positioning": "Premium, provider-diverse, security-first operating ecosystem for AI-native internal SaaS and campaign operations.",
+  "tracking_enabled": false,
+  "logo_policy": "No logo usage unless logo_usage_approved is true.",
+  "legal_claim_policy": "No official partnership, endorsement, sponsorship, or certification claims unless explicitly documented.",
+  "categories": [
     "ai intelligence layer",
-    "builder and no-code layer",
+    "no-code builder layer",
     "code and repository layer",
     "secure private storage layer",
     "edge and domain infrastructure layer",
@@ -26,32 +13,151 @@
     "marketing and growth channels",
     "experimental research providers"
   ],
-  "rules": {
-    "official_partner_requires_evidence_ref": true,
-    "public_logo_usage_requires_logo_usage_approved_true": true,
-    "logo_usage_approved_false_requires_text_only_card": true,
-    "provider_copy_must_be_high_impact_but_legally_safe": true,
-    "tracking_enabled_default": false,
-    "zaraz_status": "planned_only_not_enabled"
-  },
   "providers": [
-    {"provider_id":"openai","display_name":"OpenAI","category":"ai intelligence layer","status":"tool_in_use","positioning":"AI reasoning, architecture assistance, remediation planning, product intelligence","logo_usage_approved":false,"public_claim_style":"technology reference only","claim_style":"technology reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"chatgpt","display_name":"ChatGPT","category":"ai intelligence layer","status":"tool_in_use","positioning":"founder command center, planning, review and workflow guidance","logo_usage_approved":false,"public_claim_style":"technology reference only","claim_style":"technology reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"gemini","display_name":"Gemini","category":"ai intelligence layer","status":"candidate","positioning":"research review, google ecosystem assistance, multimodal validation","logo_usage_approved":false,"public_claim_style":"technology reference only","claim_style":"technology reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"flutterflow","display_name":"FlutterFlow","category":"builder and no-code layer","status":"tool_in_use","positioning":"visual app builder, UI assembly, Flutter export, rapid prototyping","logo_usage_approved":false,"public_claim_style":"technology reference only","claim_style":"technology reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"dreamflow","display_name":"Dreamflow","category":"builder and no-code layer","status":"candidate","positioning":"experimental AI app generation and UI exploration","logo_usage_approved":false,"public_claim_style":"technology reference only","claim_style":"technology reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"github","display_name":"GitHub","category":"code and repository layer","status":"tool_in_use","positioning":"source control, pull requests, agentic code review, security workflow","logo_usage_approved":false,"public_claim_style":"technology reference only","claim_style":"technology reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"gitlab","display_name":"GitLab","category":"code and repository layer","status":"integration_planned","positioning":"secondary candidate intake and repository screening","logo_usage_approved":false,"public_claim_style":"technology reference only","claim_style":"technology reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"proton","display_name":"Proton","category":"secure private storage layer","status":"tool_in_use","positioning":"private file storage, password vault, access key management, secure research evidence","logo_usage_approved":false,"public_claim_style":"technology reference only","claim_style":"technology reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"google-drive","display_name":"Google Drive","category":"secure private storage layer","status":"candidate","positioning":"public/community file collaboration and external sharing when approved","logo_usage_approved":false,"public_claim_style":"technology reference only","claim_style":"technology reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"cloudflare","display_name":"Cloudflare","category":"edge and domain infrastructure layer","status":"tool_in_use","positioning":"DNS, edge routing, Pages/Workers candidate, Zaraz planned, gateway layer","logo_usage_approved":false,"public_claim_style":"technology reference only","claim_style":"technology reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"vietnix","display_name":"Vietnix","category":"vps and runtime operations layer","status":"tool_in_use","positioning":"VPS hosting for platform-control and runtime experimentation","logo_usage_approved":false,"public_claim_style":"technology reference only","claim_style":"technology reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"termius","display_name":"Termius","category":"vps and runtime operations layer","status":"tool_in_use","positioning":"SSH, tunnel, mobile operations, VPS access workflow","logo_usage_approved":false,"public_claim_style":"technology reference only","claim_style":"technology reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"google-ads","display_name":"Google Ads","category":"marketing and growth channels","status":"planned_not_enabled","positioning":"search and conversion acquisition channel","logo_usage_approved":false,"public_claim_style":"channel reference only","claim_style":"channel reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"meta-ads","display_name":"Meta Ads","category":"marketing and growth channels","status":"planned_not_enabled","positioning":"social acquisition and retargeting channel","logo_usage_approved":false,"public_claim_style":"channel reference only","claim_style":"channel reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"tiktok-ads","display_name":"TikTok Ads","category":"marketing and growth channels","status":"planned_not_enabled","positioning":"short-form creative acquisition channel","logo_usage_approved":false,"public_claim_style":"channel reference only","claim_style":"channel reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"linkedin-ads","display_name":"LinkedIn Ads","category":"marketing and growth channels","status":"planned_not_enabled","positioning":"b2b acquisition and founder/operator targeting","logo_usage_approved":false,"public_claim_style":"channel reference only","claim_style":"channel reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"reddit-ads","display_name":"Reddit Ads","category":"marketing and growth channels","status":"planned_not_enabled","positioning":"community-based product discovery","logo_usage_approved":false,"public_claim_style":"channel reference only","claim_style":"channel reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null},
-    {"provider_id":"pinterest-ads","display_name":"Pinterest Ads","category":"marketing and growth channels","status":"planned_not_enabled","positioning":"visual discovery and template inspiration channel","logo_usage_approved":false,"public_claim_style":"channel reference only","claim_style":"channel reference only","tracking_enabled":false,"public_visible":true,"official_partner":false,"evidence_ref":null}
-  ]
+    {
+      "name": "OpenAI",
+      "status": "tool_in_use",
+      "category": "ai intelligence layer",
+      "positioning": "ai reasoning, architecture assistance, remediation planning, product intelligence",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "ChatGPT",
+      "status": "tool_in_use",
+      "category": "ai intelligence layer",
+      "positioning": "founder command center, workflow guidance, product planning, security review assistance",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Gemini",
+      "status": "candidate",
+      "category": "ai intelligence layer",
+      "positioning": "research review, google ecosystem assistance, multimodal validation",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "FlutterFlow",
+      "status": "tool_in_use",
+      "category": "no-code builder layer",
+      "positioning": "visual app builder, ui assembly, flutter export, rapid prototyping",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Dreamflow",
+      "status": "candidate",
+      "category": "no-code builder layer",
+      "positioning": "experimental ai app generation and ui exploration",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "GitHub",
+      "status": "tool_in_use",
+      "category": "code and repository layer",
+      "positioning": "source control, pull requests, copilot agent, security workflow, repository governance",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "GitLab",
+      "status": "integration_planned",
+      "category": "code and repository layer",
+      "positioning": "secondary candidate intake and repository screening",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Proton",
+      "status": "tool_in_use",
+      "category": "secure private storage layer",
+      "positioning": "proton drive, proton pass, private evidence, access keys, contract storage",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Google Drive",
+      "status": "candidate",
+      "category": "secure private storage layer",
+      "positioning": "approved shared material, community/public source collaboration",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Cloudflare",
+      "status": "tool_in_use",
+      "category": "edge and domain infrastructure layer",
+      "positioning": "dns, edge routing, pages/workers candidate, zaraz planned, gateway layer",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Vietnix",
+      "status": "tool_in_use",
+      "category": "vps and runtime operations layer",
+      "positioning": "vps hosting for platform-control and runtime experimentation",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Termius",
+      "status": "tool_in_use",
+      "category": "vps and runtime operations layer",
+      "positioning": "ssh, tunnels, mobile operations, vps access workflow",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Google Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "search acquisition, intent capture, conversion campaigns",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Meta Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "social acquisition, retargeting, creative testing",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "TikTok Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "short-form creative acquisition and founder-led storytelling",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "LinkedIn Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "b2b founder, operator, agency and internal tools audience",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Reddit Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "community product discovery and technical audience testing",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    },
+    {
+      "name": "Pinterest Ads",
+      "status": "planned_not_enabled",
+      "category": "marketing and growth channels",
+      "positioning": "visual discovery for ui templates and design inspiration",
+      "logo_usage_approved": false,
+      "tracking_enabled": false
+    }
+  ],
+  "safe_disclaimer": "\"Technology names are referenced as tools, platforms, providers, or channels used or evaluated by the project. Unless explicitly stated, references do not imply sponsorship, endorsement, certification, or official partnership.\""
 }

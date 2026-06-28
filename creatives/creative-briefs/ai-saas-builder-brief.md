@@ -1,10 +1,15 @@
-# Creative Brief: AI SaaS Builder
+# Ai Saas Builder Brief
 
-## Goal
-Communicate no-code/low-code speed with governance, security-first architecture, and enterprise readiness.
+## Brief focus
+AI-native builder acceleration from concept to governed internal SaaS.
 
-## Tone
-Future-facing, command-center confidence, execution-focused.
+## Audience intent
+- Reduce chaos
+- Increase shipping confidence
+- Improve governance and trust
 
-## Constraints
-No tracking claims, no official partnership claims, no logo usage without approval.
+## Output format
+Static planning copy and concepts only.
+
+## Safe disclaimer
+"Technology names are referenced as tools, platforms, providers, or channels used or evaluated by the project. Unless explicitly stated, references do not imply sponsorship, endorsement, certification, or official partnership."

@@ -1,12 +1,24 @@
 # Provider Ecosystem Campaign
 
+## Status
+planned_not_enabled
+
 ## Objective
-Showcase a layered technology ecosystem as premium, governed, and future-facing.
+Provider ecosystem authority campaign with legal-safe references.
 
-## Angle
-From intelligence to runtime, each layer is screened, mapped, and policy-controlled.
+## Audience
+- Founder-operators
+- Internal tools leads
+- Security-conscious product teams
+- Agencies and systems builders
 
-## Guardrails
-- Informational provider references only
-- Text-only provider cards unless logo approval exists
-- Required legal-safe disclaimer in public copy
+## Offer
+Strategy call, pilot engagement, or blueprint download.
+
+## Risk controls
+- Tracking remains disabled
+- No pixels or conversion API enabled
+- No partnership or endorsement claims
+
+## Safe disclaimer
+"Technology names are referenced as tools, platforms, providers, or channels used or evaluated by the project. Unless explicitly stated, references do not imply sponsorship, endorsement, certification, or official partnership."

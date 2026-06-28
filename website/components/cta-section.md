@@ -1,6 +1,5 @@
-# CTA Section
+# Cta Section
 
-- Explore the provider ecosystem map
-- Review the AI-native builder strategy
-- See the security-first operating model
-- Evaluate campaign-ready messaging frameworks
+Primary CTA: book strategy blueprint; secondary CTA: download lead magnet.
+
+Status: planned_not_enabled

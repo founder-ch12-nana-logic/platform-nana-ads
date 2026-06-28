@@ -1,9 +1,14 @@
 {
-  "schema_version": "2.0",
-  "zaraz_status": "planned_only_not_enabled",
   "tracking_enabled": false,
-  "pixel_scripts_enabled": false,
-  "analytics_scripts_enabled": false,
-  "conversion_api_enabled": false,
-  "providers": []
+  "zaraz_enabled": false,
+  "providers": [
+    "Cloudflare",
+    "Google Ads",
+    "Meta Ads",
+    "TikTok Ads",
+    "LinkedIn Ads",
+    "Reddit Ads",
+    "Pinterest Ads"
+  ],
+  "note": "Planning map only. No implementation in this repository."
 }

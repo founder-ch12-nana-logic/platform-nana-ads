@@ -1,14 +1,10 @@
 # Provider Publication Checklist
 
-- [ ] Provider entry exists in `providers/provider-ecosystem-registry.json`
-- [ ] `status` is valid and policy-compliant
-- [ ] Default status is `candidate` or `tool_in_use` unless explicitly justified
-- [ ] `official_partner` includes explicit `evidence_ref`
-- [ ] `logo_usage_approved` verified before logo display
-- [ ] Text-only card used when `logo_usage_approved` is false
-- [ ] Copy is high-impact and legally safe
-- [ ] Required disclaimer included in public-facing sections
-- [ ] No sponsorship, endorsement, certification, or partnership implication unless explicitly recorded
-- [ ] `tracking_enabled` is false for current planning state
-- [ ] No pixel scripts, analytics scripts, or conversion API enablement
-- [ ] No secrets, tokens, credentials, or customer data
+- [ ] Provider status recorded
+- [ ] `logo_usage_approved` validated
+- [ ] No endorsement/sponsorship/certification/official partnership claim
+- [ ] `tracking_enabled: false` confirmed where applicable
+- [ ] Disclaimer included in public-facing copy
+
+## Safe disclaimer
+"Technology names are referenced as tools, platforms, providers, or channels used or evaluated by the project. Unless explicitly stated, references do not imply sponsorship, endorsement, certification, or official partnership."

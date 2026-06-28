@@ -1,10 +1,5 @@
 # Hero Section
 
-## Primary line
-Build internal SaaS with an AI-native, infrastructure-grade ecosystem.
+Bold AI-native headline, premium support line, and conversion-focused CTA framing.
 
-## Supporting line
-Premium velocity. Security-first governance. Enterprise-ready execution.
-
-## Optional kicker
-Not a random stack — a controlled technology ecosystem.
+Status: planned_not_enabled

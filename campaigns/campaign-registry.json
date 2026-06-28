@@ -1,31 +1,74 @@
 {
-  "schema_version": "2.0",
-  "description": "Registry of planned marketing campaigns for provider ecosystem positioning.",
+  "workspace": "platform-nana-ads",
+  "mode": "planning_only",
   "tracking_enabled": false,
+  "pixel_enabled": false,
+  "zaraz_enabled": false,
+  "conversion_api_enabled": false,
   "campaigns": [
     {
-      "campaign_id": "launch-campaign-v0-1",
-      "name": "Launch Campaign v0.1",
-      "status": "planned",
-      "focus": "premium provider ecosystem debut",
-      "channels": ["Google Ads", "Meta Ads", "LinkedIn Ads", "organic social"],
-      "tracking_enabled": false
+      "id": "launch-campaign-v0.1",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
     },
     {
-      "campaign_id": "provider-ecosystem-campaign",
-      "name": "Provider Ecosystem Campaign",
-      "status": "planned",
-      "focus": "technology ecosystem narrative and trust positioning",
-      "channels": ["Reddit Ads", "Pinterest Ads", "organic social"],
-      "tracking_enabled": false
+      "id": "ai-saas-builder-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
     },
     {
-      "campaign_id": "saas-builder-campaign",
-      "name": "SaaS Builder Campaign",
-      "status": "planned",
-      "focus": "no-code/low-code AI-native internal SaaS positioning",
-      "channels": ["Google Ads", "TikTok Ads", "LinkedIn Ads"],
-      "tracking_enabled": false
+      "id": "no-code-factory-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    },
+    {
+      "id": "security-first-platform-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    },
+    {
+      "id": "provider-ecosystem-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    },
+    {
+      "id": "ui-template-gallery-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    },
+    {
+      "id": "founder-build-in-public-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    },
+    {
+      "id": "internal-tools-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
+    },
+    {
+      "id": "agency-offer-campaign",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "owner": "nana-logic-ops",
+      "objective": "pipeline_growth"
     }
-  ]
+  ],
+  "safe_disclaimer": "\"Technology names are referenced as tools, platforms, providers, or channels used or evaluated by the project. Unless explicitly stated, references do not imply sponsorship, endorsement, certification, or official partnership.\""
 }

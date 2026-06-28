@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ProviderGrid",
+  "type": "object",
+  "properties": {
+    "tracking_enabled": {
+      "type": "boolean",
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "category",
+          "status",
+          "positioning",
+          "logo_usage_approved",
+          "tracking_enabled"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "positioning": {
+            "type": "string"
+          },
+          "logo_usage_approved": {
+            "type": "boolean"
+          },
+          "tracking_enabled": {
+            "type": "boolean",
+            "const": false
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "tracking_enabled",
+    "items"
+  ]
+}
