@@ -1,5 +1,31 @@
 {
-  "schema_version": "1.0",
-  "description": "Registry of ad campaigns and lifecycle state.",
-  "campaigns": []
+  "schema_version": "2.0",
+  "description": "Registry of planned marketing campaigns for provider ecosystem positioning.",
+  "tracking_enabled": false,
+  "campaigns": [
+    {
+      "campaign_id": "launch-campaign-v0-1",
+      "name": "Launch Campaign v0.1",
+      "status": "planned",
+      "focus": "premium provider ecosystem debut",
+      "channels": ["Google Ads", "Meta Ads", "LinkedIn Ads", "organic social"],
+      "tracking_enabled": false
+    },
+    {
+      "campaign_id": "provider-ecosystem-campaign",
+      "name": "Provider Ecosystem Campaign",
+      "status": "planned",
+      "focus": "technology ecosystem narrative and trust positioning",
+      "channels": ["Reddit Ads", "Pinterest Ads", "organic social"],
+      "tracking_enabled": false
+    },
+    {
+      "campaign_id": "saas-builder-campaign",
+      "name": "SaaS Builder Campaign",
+      "status": "planned",
+      "focus": "no-code/low-code AI-native internal SaaS positioning",
+      "channels": ["Google Ads", "TikTok Ads", "LinkedIn Ads"],
+      "tracking_enabled": false
+    }
+  ]
 }

@@ -1,24 +1,25 @@
 # Provider Claim Policy
 
-## Scope
-The provider ecosystem registry and website copy are informational only.
+## Policy objective
+Publish provider ecosystem content that is premium and high-impact while remaining legally safe.
 
-## Claim restrictions
-- Do not imply endorsement, sponsorship, certification, or partnership.
-- Do not claim official partnerships unless explicit evidence is recorded.
-- Official partner status requires a documented `evidence_ref` in the registry.
+## Legal-safe claim model
+- Provider ecosystem references are informational only.
+- Do not imply sponsorship, endorsement, certification, or partnership unless explicitly recorded as `official_partner`.
+- `official_partner` requires explicit `evidence_ref` in the provider registry.
+- Logos may appear only when `logo_usage_approved: true`.
+- If `logo_usage_approved` is false, use text-only presentation.
 
-## Status model
-Provider status must be one of:
+## Approved provider statuses
 - `candidate`
 - `tool_in_use`
 - `integration_planned`
 - `approved_for_public_mention`
 - `official_partner`
 - `retired`
+- `planned_not_enabled`
 
-Default status must be `candidate` or `tool_in_use`.
+Default provider status must be `candidate` or `tool_in_use`.
 
-## Logo usage restrictions
-- Third-party logos must not be used unless `logo_usage_approved: true`.
-- If `logo_usage_approved` is false, use text-only provider cards.
+## Copy governance
+All public provider copy must be bold, premium, and future-facing while preserving legal-safe framing.

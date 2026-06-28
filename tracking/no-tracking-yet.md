@@ -1,4 +1,7 @@
 # No Tracking Yet
 
-No ad pixels or tracking scripts are enabled.
-Any future tracking activation requires completed privacy/consent review and explicit approval.
+- tracking_enabled is false across all seeded provider entries
+- Cloudflare Zaraz remains planned only and not enabled
+- No pixel scripts are enabled
+- No analytics scripts are enabled
+- No conversion API is enabled

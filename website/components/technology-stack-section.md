@@ -1,4 +1,7 @@
-# Technology Stack Section (Content Spec)
+# Technology Stack Section
 
-Describe technologies as references used by the project.
-Do not imply endorsement, sponsorship, or official partnership unless explicitly stated with evidence.
+## Stack statement
+The platform stack is mapped as a layered ecosystem: AI intelligence, no-code builders, repository control, secure storage, edge infrastructure, runtime operations, and growth channels.
+
+## Publication guardrail
+Provider references are informational and structured for legal-safe communication.

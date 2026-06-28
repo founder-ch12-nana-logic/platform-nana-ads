@@ -1,4 +1,7 @@
-# Trust Section (Content Spec)
+# Trust Section
 
-Communicate process, transparency, and operational safeguards.
-Avoid language that implies third-party certification unless explicitly validated.
+- Legally safe provider publication framework
+- Text-only provider mode by default
+- Evidence-gated official partnership claims
+- Tracking disabled by default in planning state
+- Security-first documentation and access discipline

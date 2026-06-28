@@ -1,4 +1,3 @@
-# Disclaimer Section (Required Copy)
+# Disclaimer Section
 
-Listed providers are technology/tools referenced by the project unless otherwise stated.
-Listing does not imply endorsement, sponsorship, certification, or partnership.
+"Technology names are referenced as tools, platforms, providers, or channels used or evaluated by the project. Unless explicitly stated, references do not imply sponsorship, endorsement, certification, or official partnership."

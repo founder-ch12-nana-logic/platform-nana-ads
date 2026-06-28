@@ -1,10 +1,13 @@
-# Homepage Copy (Draft)
+# Homepage Copy
 
-## Positioning
-A practical operations and delivery platform focused on structured execution.
+## Headline
+Enterprise-ready, AI-native, no-code-to-runtime platform operations.
 
-## Supporting line
-Built with a technology ecosystem selected for reliability, privacy-minded operations, and iterative delivery.
+## Subhead
+A premium stack engineered for founders and operators building secure internal SaaS at global scale.
+
+## Body
+We combine intelligence, builder velocity, code governance, storage control, and infrastructure discipline into one mapped ecosystem.
 
 ## Disclaimer
-Listed providers are technology/tools referenced by the project unless otherwise stated.
+"Technology names are referenced as tools, platforms, providers, or channels used or evaluated by the project. Unless explicitly stated, references do not imply sponsorship, endorsement, certification, or official partnership."

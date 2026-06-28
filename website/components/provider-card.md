@@ -1,5 +1,8 @@
-# Provider Card Component (Content Spec)
+# Provider Card Component
 
-Use text-only cards by default.
-Show logos only when `logo_usage_approved: true`.
-Do not imply endorsement or partnership in card language.
+## Mode
+- Default: text-only card
+- Logo card: allowed only when `logo_usage_approved: true`
+
+## Copy style
+High-impact and premium, but never implying sponsorship, endorsement, certification, or official partnership unless explicitly marked `official_partner` with evidence.
