@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Informational registry of provider and support ecosystem references for planning and public content drafts.",
+  "informational_only": true,
+  "partnership_claims_allowed": false,
+  "provider_status_allowed": [
+    "candidate",
+    "tool_in_use",
+    "integration_planned",
+    "approved_for_public_mention",
+    "official_partner",
+    "retired"
+  ],
+  "default_provider_status_allowed": [
+    "candidate",
+    "tool_in_use"
+  ],
+  "rules": {
+    "official_partner_requires_evidence_ref": true,
+    "public_logo_usage_requires_logo_usage_approved_true": true,
+    "logo_usage_approved_false_requires_text_only_card": true
+  },
+  "providers": [
+    {
+      "name": "Cloudflare",
+      "category": "infrastructure",
+      "status": "tool_in_use",
+      "is_official_partner": false,
+      "evidence_ref": null,
+      "logo_usage_approved": false,
+      "public_card_mode": "text_only",
+      "uses": [
+        "dns",
+        "edge",
+        "pages/workers candidate",
+        "zaraz planned"
+      ]
+    },
+    {
+      "name": "Proton",
+      "category": "private-storage",
+      "status": "tool_in_use",
+      "is_official_partner": false,
+      "evidence_ref": null,
+      "logo_usage_approved": false,
+      "public_card_mode": "text_only",
+      "uses": [
+        "proton drive",
+        "proton pass",
+        "mail identity"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "category": "code-hosting",
+      "status": "tool_in_use",
+      "is_official_partner": false,
+      "evidence_ref": null,
+      "logo_usage_approved": false,
+      "public_card_mode": "text_only",
+      "uses": [
+        "repositories",
+        "pull requests",
+        "copilot agent",
+        "security workflow"
+      ]
+    },
+    {
+      "name": "GitLab",
+      "category": "code-hosting",
+      "status": "integration_planned",
+      "is_official_partner": false,
+      "evidence_ref": null,
+      "logo_usage_approved": false,
+      "public_card_mode": "text_only",
+      "uses": [
+        "candidate intake",
+        "secondary repository screening"
+      ]
+    },
+    {
+      "name": "FlutterFlow",
+      "category": "app-builders",
+      "status": "tool_in_use",
+      "is_official_partner": false,
+      "evidence_ref": null,
+      "logo_usage_approved": false,
+      "public_card_mode": "text_only",
+      "uses": [
+        "ui builder",
+        "app builder",
+        "flutter export"
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "category": "ai-tools",
+      "status": "tool_in_use",
+      "is_official_partner": false,
+      "evidence_ref": null,
+      "logo_usage_approved": false,
+      "public_card_mode": "text_only",
+      "uses": [
+        "ai assistance",
+        "architecture",
+        "review",
+        "remediation planning"
+      ]
+    },
+    {
+      "name": "ChatGPT",
+      "category": "ai-tools",
+      "status": "tool_in_use",
+      "is_official_partner": false,
+      "evidence_ref": null,
+      "logo_usage_approved": false,
+      "public_card_mode": "text_only",
+      "uses": [
+        "planning",
+        "review",
+        "command guidance"
+      ]
+    },
+    {
+      "name": "Gemini",
+      "category": "ai-tools",
+      "status": "candidate",
+      "is_official_partner": false,
+      "evidence_ref": null,
+      "logo_usage_approved": false,
+      "public_card_mode": "text_only",
+      "uses": [
+        "research review and google ecosystem assistance"
+      ]
+    },
+    {
+      "name": "Google Drive",
+      "category": "private-storage",
+      "status": "candidate",
+      "is_official_partner": false,
+      "evidence_ref": null,
+      "logo_usage_approved": false,
+      "public_card_mode": "text_only",
+      "uses": [
+        "shared community/public material and collaboration"
+      ]
+    },
+    {
+      "name": "Vietnix",
+      "category": "hosting-vps",
+      "status": "tool_in_use",
+      "is_official_partner": false,
+      "evidence_ref": null,
+      "logo_usage_approved": false,
+      "public_card_mode": "text_only",
+      "uses": [
+        "vps hosting"
+      ]
+    },
+    {
+      "name": "Termius",
+      "category": "operations-tools",
+      "status": "tool_in_use",
+      "is_official_partner": false,
+      "evidence_ref": null,
+      "logo_usage_approved": false,
+      "public_card_mode": "text_only",
+      "uses": [
+        "ssh",
+        "tunnel",
+        "mobile operations"
+      ]
+    },
+    {
+      "name": "Dreamflow",
+      "category": "app-builders",
+      "status": "candidate",
+      "is_official_partner": false,
+      "evidence_ref": null,
+      "logo_usage_approved": false,
+      "public_card_mode": "text_only",
+      "uses": [
+        "experimental ui/app generation"
+      ]
+    }
+  ],
+  "marketing_channels": [
+    {
+      "name": "Google Ads",
+      "status": "planned_not_enabled"
+    },
+    {
+      "name": "Meta Ads",
+      "status": "planned_not_enabled"
+    },
+    {
+      "name": "TikTok Ads",
+      "status": "planned_not_enabled"
+    },
+    {
+      "name": "LinkedIn Ads",
+      "status": "planned_not_enabled"
+    },
+    {
+      "name": "Reddit Ads",
+      "status": "planned_not_enabled"
+    },
+    {
+      "name": "Pinterest Ads",
+      "status": "planned_not_enabled"
+    },
+    {
+      "name": "organic social",
+      "status": "planned_not_enabled"
+    }
+  ]
+}

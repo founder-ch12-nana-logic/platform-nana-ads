@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "description": "Schema for public provider grid planning.",
+  "required_fields": [
+    "provider_name",
+    "category",
+    "status",
+    "usage_summary",
+    "logo_usage_approved",
+    "public_card_mode",
+    "disclaimer"
+  ],
+  "constraints": {
+    "allowed_status": [
+      "candidate",
+      "tool_in_use",
+      "integration_planned",
+      "approved_for_public_mention",
+      "official_partner",
+      "retired"
+    ],
+    "official_partner_requires_evidence_ref": true,
+    "logo_usage_approved_false_requires_text_only": true
+  }
+}

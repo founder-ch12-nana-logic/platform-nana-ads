@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0",
+  "description": "Planning map for potential future Zaraz/provider relationships.",
+  "zaraz_status": "planned_only_not_enabled",
+  "tracking_enabled": false,
+  "providers": []
+}
