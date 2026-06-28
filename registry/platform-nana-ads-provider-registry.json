@@ -118,6 +118,78 @@
       "requires_founder_approval": true,
       "secrets_location": "proton_pass_only",
       "production_enabled": false
+    },
+    {
+      "provider_id": "microsoft_ads",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "requires_consent": true,
+      "requires_founder_approval": true,
+      "secrets_location": "proton_pass_only",
+      "production_enabled": false
+    },
+    {
+      "provider_id": "x_ads",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "requires_consent": true,
+      "requires_founder_approval": true,
+      "secrets_location": "proton_pass_only",
+      "production_enabled": false
+    },
+    {
+      "provider_id": "snap_pixel",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "requires_consent": true,
+      "requires_founder_approval": true,
+      "secrets_location": "proton_pass_only",
+      "production_enabled": false
+    },
+    {
+      "provider_id": "taboola_ads",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "requires_consent": true,
+      "requires_founder_approval": true,
+      "secrets_location": "proton_pass_only",
+      "production_enabled": false
+    },
+    {
+      "provider_id": "outbrain_ads",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "requires_consent": true,
+      "requires_founder_approval": true,
+      "secrets_location": "proton_pass_only",
+      "production_enabled": false
+    },
+    {
+      "provider_id": "klaviyo",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "requires_consent": true,
+      "requires_founder_approval": true,
+      "secrets_location": "proton_pass_only",
+      "production_enabled": false
+    },
+    {
+      "provider_id": "mailchimp",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "requires_consent": true,
+      "requires_founder_approval": true,
+      "secrets_location": "proton_pass_only",
+      "production_enabled": false
+    },
+    {
+      "provider_id": "braze",
+      "status": "planned_not_enabled",
+      "tracking_enabled": false,
+      "requires_consent": true,
+      "requires_founder_approval": true,
+      "secrets_location": "proton_pass_only",
+      "production_enabled": false
     }
   ]
 }
