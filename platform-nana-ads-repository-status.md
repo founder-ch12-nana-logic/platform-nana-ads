@@ -1,5 +1,6 @@
 # platform-nana-ads Repository Status
 
+- workspace_type: private_marketing_ads_control
 - ads_status: planned_not_enabled
 - tracking_status: disabled
 - zaraz_status: not_configured
