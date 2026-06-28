@@ -1,0 +1,5 @@
+{
+  "schema_version": "1.0",
+  "description": "Registry for approved calls-to-action used in campaigns.",
+  "ctas": []
+}

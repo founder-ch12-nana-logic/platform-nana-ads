@@ -1,0 +1,5 @@
+{
+  "schema_version": "1.0",
+  "description": "Registry of ad campaigns and lifecycle state.",
+  "campaigns": []
+}
