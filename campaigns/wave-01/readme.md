@@ -6,6 +6,7 @@ Status: planned_not_enabled
 tracking_enabled: false
 
 This folder contains planning-only artifacts for Ads Wave 01.
+Wave 01 is the first complete campaign operating layer for Platform Nana planning.
 
 ## Guardrails
 - No deploy, DNS, Cloudflare, Zaraz, pixel, tracking script, analytics script, or conversion API actions
