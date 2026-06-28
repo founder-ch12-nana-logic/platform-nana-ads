@@ -1,0 +1,24 @@
+{
+  "workspace": "platform-nana-ads",
+  "status": "planned_not_enabled",
+  "default_policy": {
+    "tracking_enabled": false,
+    "requires_consent": true,
+    "requires_founder_approval": true
+  },
+  "map": [
+    {"provider_id": "cloudflare_zaraz", "purposes": ["measurement", "attribution"]},
+    {"provider_id": "google_ads", "purposes": ["attribution", "optimization"]},
+    {"provider_id": "google_analytics_4", "purposes": ["measurement"]},
+    {"provider_id": "meta_pixel", "purposes": ["attribution", "optimization"]},
+    {"provider_id": "tiktok_pixel", "purposes": ["attribution", "optimization"]},
+    {"provider_id": "linkedin_insight", "purposes": ["attribution"]},
+    {"provider_id": "pinterest_conversions", "purposes": ["attribution"]},
+    {"provider_id": "reddit_pixel", "purposes": ["attribution"]},
+    {"provider_id": "hubspot", "purposes": ["measurement"]},
+    {"provider_id": "mixpanel", "purposes": ["measurement", "optimization"]},
+    {"provider_id": "amplitude", "purposes": ["measurement", "optimization"]},
+    {"provider_id": "segment", "purposes": ["measurement"]},
+    {"provider_id": "custom_http_request", "purposes": ["measurement"]}
+  ]
+}

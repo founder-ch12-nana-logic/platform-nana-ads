@@ -1,0 +1,10 @@
+{
+  "workspace": "platform-nana-ads",
+  "status": "planned_not_enabled",
+  "events": [
+    "page_view",
+    "template_view",
+    "ui_template_selected",
+    "contact_clicked"
+  ]
+}

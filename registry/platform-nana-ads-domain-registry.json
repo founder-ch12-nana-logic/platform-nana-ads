@@ -1,0 +1,7 @@
+{
+  "workspace": "platform-nana-ads",
+  "status": "planned_not_enabled",
+  "domain_changes_allowed": false,
+  "cloudflare_mutation_allowed": false,
+  "domains": []
+}
